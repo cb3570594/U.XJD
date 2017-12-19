@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>有·小鸡动</title>
+		<link rel="stylesheet" href="css/basic.css" />
+		<link rel="stylesheet" href="css/slides.css" />
+		<script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/slides.js"></script>
+		<script type="text/javascript" src="js/news_scroll.js" ></script>
+		
+	</head>
+
+	<body>
+		<div class="top">
+			<div id="weather"></div>
+			<div id="date"></div>
+			<div id="time"></div>
+			<div class="top-content">
+				<ul>
+					<li>
+						<a href="#">联系客服</a>
+					</li>
+					<li>
+						<a href="#">注册</a>
+					</li>
+					<li>
+						<a href="#">登录</a>
+					</li>
+				</ul>
+			</div>
+			<!--top-content结束-->
+		</div>
+		<!--top结束-->
+		<div class="wrap">
+			<div class="logo-wrap">
+				<div class="logo">
+					<img src="img/有·小鸡动1.png" alt='有·小鸡动' />
+				</div>
+				<div class="tel">
+					<img src="img/tel1.png" alt='服务热线' />24小时服务热线：<span class='tel-num'>123-456-7890</span>
+				</div>
+			</div>
+			<!--logo-wrap结束-->
+			<div class="nav">
+				<div class="nav-left">
+					<ul>
+						<li>
+							<a href="#">首页</a>
+						</li>
+						<li>
+							<a href="#">享美食</a>
+						</li>
+						<li>
+							<a href="#">懂品质</a>
+						</li>
+						<li>
+							<a href="#">惠体验</a>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-right">
+					<form action="" method="get">
+						<input type="text" class="search-text" />
+						<input type="submit" class="search-btn" value="搜索" />
+					</form>
+				</div>
+			</div>
+			<!--nav结束-->
+			<div class="slideshow-container">
+				
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 3</div>
+					<img src="img/ADV1.PNG" style="width:100%">
+					<div class="text">吧台</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 3</div>
+					<img src="img/ADV2.PNG" style="width:100%">
+					<div class="text">用餐区</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 3</div>
+					<img src="img/ADV3.PNG" style="width:100%">
+					<div class="text">用餐区</div>
+				</div>
+				<a class="prev" id="prev">❮</a>
+				<a class="next" id="next">❯</a>
+				
+				<div style="text-align:center">
+					<span class="dot" ></span>
+					<span class="dot" ></span>
+					<span class="dot" ></span>
+				</div>
+			</div><!--slideshow-container结束-->/
+			<br>
+
+			
+			<div class="main">
+				<div class="news">
+					<div class="title">
+						<h2 class="title_left">新闻中心</h2><span class="title_right"><a href="#">More&gt;&gt;</a></span>
+					</div>
+					<div class="pic_news">
+						<img src="img/youhui1.jpg" />
+						<h2>开业庆典</h2>
+						<p>有点小鸡动于10月10日盛大开业，庆典时间：10月10日-10月13日<br />
+						开业大酬宾，全场饮品享5折聚优惠，更有特惠炸鸡等着你！<br />
+						<a href="#">More&gt;&gt;</a>
+						</p>
+					</div>
+					<div class="news_list">
+						<ul>
+							<li><span class="pub-time">2017-10-10</span><a href="#">10月10日-10月13日 开业庆典</a></li>
+							<li><span class="pub-time">2017-10-10</span><a href="#">10月10日-10月13日 开业庆典</a></li>
+							<li><span class="pub-time">2017-10-10</span><a href="#">10月10日-10月13日 开业庆典</a></li>
+							<li><span class="pub-time">2017-10-10</span><a href="#">10月10日-10月13日 开业庆典</a></li>
+						</ul>
+					</div>
+				</div><!--news结束-->
+				<div class="activity">
+					<div class="title">
+						<h2 class="title_left">活动详情</h2><span class="title_right"><a href="#">More&gt;&gt;</a></span>
+					</div>
+					<div class="ac_content">
+						<img src="img/youhui1.jpg" />
+						<h2>热门活动</h2>
+						<p>活动时间：10月10日-10月13日<br />
+						开业享特惠，优惠活动聚划算！<br />
+						<a href="#">More&gt;&gt;</a>
+						</p>
+					</div>
+					<div class="ac_list">
+						<ul>
+							<li><span class="pub-time">2017-10-10</span><a href="#">10月10日-10月13日 饮品半价</a></li>
+							<li><span class="pub-time">2017-10-10</span><a href="#">10月10日-10月13日 主食特惠</a></li>
+							<li><span class="pub-time">2017-10-10</span><a href="#">10月10日-10月13日 机不可失</a></li>
+							<li><span class="pub-time">2017-10-10</span><a href="#">10月10日-10月13日 失不再来</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sidebar">
+					<div class="news_wrap">
+						<div class="title">
+							<h2 class="title_left">最新消息</h2><span class="title_right"><a href="#">More&gt;&gt;</a></span>
+						</div>
+						<div class="lastest-news" id="lastest-news">
+							<ul id="con1">
+								<li><a href="">10月10日-10月13日 开业庆典1</a></li>
+								<li><a href="">10月10日-10月13日 饮品半价2</a></li>
+								<li><a href="">10月10日-10月13日 主食特惠3</a></li>
+								<li><a href="">10月10日-10月13日 机不可失4</a></li>
+								<li><a href="">10月10日-10月13日 失不再来5</a></li>
+								<li><a href="">10月10日-10月13日 主食特惠6</a></li>
+								<li><a href="">10月10日-10月13日 机不可失7</a></li>
+								<li><a href="">10月10日-10月13日 失不再来8</a></li>
+								<li><a href="">10月10日-10月13日 主食特惠9</a></li>
+							</ul>
+							<ul id="con2">
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="order_wrap">
+						<a href="#">
+							<img src="img/order.png" alt="订餐专区" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--wrap结束-->
+		<div class="copyright">
+			<div class="copyright_content">
+				<ul>
+					<li><a href="#">关于我们</a>
+						<ul>
+							<li><a href="">公司介绍</a></li>
+							<li><a href="">经验理念</a></li>
+							<li><a href="">品牌故事</a></li>
+							<li><a href="">品牌活动</a></li>
+						</ul>
+					</li>
+					<li><a href="#">加入我们</a>
+						<ul>
+							<li><a href="">品牌加盟</a></li>
+							<li><a href="">校园招聘</a></li>
+							<li><a href="">美食大学</a></li>
+							<li><a href="">搜索职位</a></li>
+						</ul>
+					</li>
+					<li><a href="#">联系我们</a>
+						<ul>
+							<li><a href="">新浪微博</a></li>
+							<li><a href="">腾讯微博</a></li>
+							<li><a href="">企业微信</a></li>
+							<li><a href="">在线客服</a></li>
+						</ul>
+					</li>
+					<li><a href="#">关注我们</a>
+						<ul>
+							<li><a href="">常见问题</a></li>
+							<li><a href="">意见反馈</a></li>
+							<li><a href="">问题留言</a></li>
+							<li><a href="">友情链接</a></li>
+						</ul>
+					</li>
+					
+				</ul>
+				<div class="weixin">
+						<span class="">微信公众号</span>
+						<img src="img/GZH.png" />
+				</div>
+				<div class="description">
+					<div class="ydxjd"></div>
+					<p class="mcd">
+                        ©2017 XIAOJIDONG'S ALL RIGHTS RESERVED
+                    </p>
+					<p class="icp">沪ICP备XXXXXXXX号 
+						<img src="img/ghs.png" />
+                        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402000846" target="_blank">
+							沪公网安备 XXXXXXXXXXXXX号
+						</a>
+                    </p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var list_news=document.getElementById('lastest-news');
+			var con1=document.getElementById('con1');
+			var con2=document.getElementById('con2');
+			con2.innerHTML=con1.innerHTML;
+			list_news.scrollTop=0;
+			function scrollUp(){
+				if(list_news.scrollTop>con1.offsetHeight){
+					list_news.scrollTop=0;
+				}else{
+					list_news.scrollTop++;
+				}
+			}
+			var myScroll=setInterval('scrollUp()',50);
+			list_news.onmouseover=function(){
+				clearInterval(myScroll);
+			}
+			list_news.onmouseout=function(){
+				myScroll=setInterval('scrollUp()',50);
+			}
+		</script>
+	</body>
+	
+</html>
